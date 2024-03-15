@@ -1,4 +1,5 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col} from 'reactstrap';
+import { Link } from 'react-router-dom'
 import logo from '../assets/webpage-logo.png';
 
 const Footer = () => {
@@ -21,9 +22,7 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li className='footer-item'>
-                            <a href=''>
-                                    Privacy
-                                </a>
+                                <Link to='/privacy'>Privacy</Link>
                             </li>
                         </ul>
                     </Col>
@@ -35,6 +34,7 @@ const Footer = () => {
                 </Row>
             </Container>
         </section>
+        
     );
 };
 

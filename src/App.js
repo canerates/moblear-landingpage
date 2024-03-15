@@ -1,16 +1,14 @@
-import Main from './components/Main';
-import Screens from './components/Screens'
-import Footer from './components/Footer';
-import NavigationBar from './components/NavigationBar';
-
+import { Route, Router, Routes } from "react-router-dom";
+import Home from './components/Home'
+import Privacy from './components/Privacy';
 
 function App() {
   return(
     <div className='App'>
-      <NavigationBar />
-      <Main />
-      <Screens />
-      <Footer />
+      <Routes> 
+        <Route exact path='/' element={<Home />} />
+        <Route path='/privacy' element={<Privacy/>} />
+      </Routes>
     </div>
   )
 }
