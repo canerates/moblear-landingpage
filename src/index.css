@@ -357,9 +357,8 @@ div .screens-item img {
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
-    padding: 0px 35px 0px 35px;
     text-align: left;
-    max-width: 1000px;
+    width: 100%;
     font-family: 'Montserrat';
 }
 #privacy h1 {
@@ -487,6 +486,10 @@ div .screens-item img {
     .main-description {
         text-align: left;
     }
+
+    #privacy .container {
+        padding: 0px 35px 0px 35px;
+    }
  }
 
  @media (min-width: 1200px) {
@@ -505,6 +508,10 @@ div .screens-item img {
 
     .main-description {
         text-align: left;
+    }
+
+    #privacy .container {
+        padding: 0px 35px 0px 35px;
     }
  }
 
@@ -526,14 +533,8 @@ div .screens-item img {
     .main-description {
         text-align: left;
     }
+
+    #privacy .container {
+        padding: 0px 35px 0px 35px;
+    }
  }
-/* Privacy */
- .privacy-title {
-    font-family: 'Montserrat';
-    text-align: left;
-  }
-  
-  .privacy-paragraph {
-    font-family: 'Montserrat';
-    text-align: left;
-  }
