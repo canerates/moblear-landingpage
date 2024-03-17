@@ -352,6 +352,83 @@ div .screens-item img {
     font-size: 25px;
 }
 
+/* Privacy */
+#privacy .container {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 35px 0px 35px;
+    text-align: left;
+    max-width: 1000px;
+    font-family: 'Montserrat';
+}
+#privacy h1 {
+    font-family:'Montserrat';
+	/* font-size: 3em; */
+    font-weight: 700;
+    text-align: left;
+    color: #282725;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#privacy h2 {
+    font-family:'Montserrat';
+	/* font-size: 2em; */
+    font-weight: 700;
+    text-align: left;
+    color: #282725;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#privacy h3 {
+    font-family:'Montserrat';
+	/* font-size: 2em; */
+    font-weight: 700;
+    text-align: left;
+    color: #282725;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#privacy h4 {
+    font-family:'Montserrat';
+	/* font-size: 2em; */
+    font-weight: 700;
+    text-align: left;
+    color: #282725;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+  
+#privacy p {
+    font-family:'Montserrat';
+    /* font-size: 18px; */
+    text-align: left;
+    color: #282725;
+}
+
+#privacy span {
+    font-weight: 700;
+}
+
+#privacy li {
+    text-align: left;
+    list-style-type: disc;
+}
+
+#privacy .back-link {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#privacy a {
+    font-family:'Montserrat';
+    text-align: left;
+    color: #282725;
+}
+
 
 /* Responsive */
 
@@ -450,42 +527,13 @@ div .screens-item img {
         text-align: left;
     }
  }
-
-/* @media (min-width:575px) and (max-width:992px){
-
-
-	.main-description {
-        text-align: center;
-    }
-    .social-item {
-        display: list-item;
-    }
-
-}
-
-@media (max-width:575px){
-
-    .main-description {
-        text-align: center;
-    }
-    .social-item {
-        display: list-item;
-    }
-
-	.tech-box-description {
-        text-align: center;
-    }
-    .tech-box-img-block {
-        margin-bottom: 1em;
-    }
-    .tech-box-img {
-        width: 60%;
-    }
-    #contact i.fa {
-        font-size: 20px;
-    }
-    .social-item span {
-        padding-left: 8px;
-        font-size: 13px;
-    }
-} */
+/* Privacy */
+ .privacy-title {
+    font-family: 'Montserrat';
+    text-align: left;
+  }
+  
+  .privacy-paragraph {
+    font-family: 'Montserrat';
+    text-align: left;
+  }
