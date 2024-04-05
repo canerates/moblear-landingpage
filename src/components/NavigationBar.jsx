@@ -24,7 +24,7 @@ const NavigationBar = () => {
 
     return(
             <Navbar expand='xs' fixed='top' container='md' className={navStatus ? 'navbar-active' : ''}>
-                <NavbarBrand href="#home">
+                <NavbarBrand href='/'>
                     <div className='logo'>
                         <img src={logo} alt=''/>
                     </div>
