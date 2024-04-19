@@ -43,8 +43,6 @@ const Privacy = () => {
                     <h4>Personal Data</h4>
                     <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
                     <ul>
-                        <li>Email address</li>
-                        <li>First name and last name</li>
                         <li>Usage Data</li>
                     </ul>
                     <h4>Usage Data</h4>
