@@ -10,7 +10,6 @@ import editTag from '../assets/screens/edit_tag-min.png';
 import homeTab from '../assets/screens/home_tab-min.png';
 import mobleEditor from '../assets/screens/moble_editor-min.png';
 import mobleList from '../assets/screens/moble_list-min.png';
-import onboarding from '../assets/screens/onboarding-min.png';
 import tagDetail from '../assets/screens/tag_detail-min.png';
 import tagList from '../assets/screens/tag_list-min.png';
 
@@ -72,9 +71,6 @@ const Screens = () => {
                         <div className='swiper-container'>
                             <div className='swiper-wrapper'>
                                 <Slider className='screens-slider' {...settings}>
-                                    <div className='screens-item'>
-                                        <img alt='' className='screens-img' src={onboarding} />
-                                    </div>
                                     <div className='screens-item'>
                                         <img alt='' className='screens-img' src={homeTab} />
                                     </div>
