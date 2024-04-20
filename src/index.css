@@ -187,7 +187,7 @@ input{
     text-align: center;
 }
 
-.main-description h1{
+.main-description .main-h1 {
 	font-family:'Montserrat';
 	font-size: 40px;
 	margin:0px;
@@ -195,7 +195,7 @@ input{
 	color:#262832;
 }
 
-.main-description span {
+.main-description  .main-span {
     color: #00b7ff;
 }
 
@@ -203,6 +203,15 @@ input{
     margin-top: 10px;
     font-size: 18px;
     color: #969696;
+}
+
+.button-text-container .button-title {
+    line-height: 10px;
+}
+
+.app-store-button {
+    display: flex;
+    justify-content: center;
 }
 
 .cv-btn {
@@ -448,6 +457,11 @@ div .screens-item img {
     .main-description {
         text-align: center;
     }
+
+    .app-store-button {
+        display: flex;
+        justify-content: center;
+    }
  }
 
  @media (min-width: 768px) {
@@ -467,6 +481,11 @@ div .screens-item img {
     .main-description {
         text-align: center;
     }
+
+    .app-store-button {
+        display: flex;
+        justify-content: center;
+    }
  }
 
  @media (min-width: 992px) {
@@ -485,6 +504,11 @@ div .screens-item img {
 
     .main-description {
         text-align: left;
+    }
+
+    .app-store-button {
+        display: flex;
+        justify-content: left;
     }
 
     #privacy .container {
