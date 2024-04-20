@@ -1,4 +1,4 @@
-# Chamber AR Application Showcase Single Page
+# MobleAR Application Showcase Single Page
 
 ## Home
 ![Screenshot](./page_home.png)
@@ -7,4 +7,4 @@
 ![Screenshot](./page_screens.png)
 
 ## Home (Portrait)
-![Screenshot](./page_home2.png)
+![Screenshot](./page_home3.png)
