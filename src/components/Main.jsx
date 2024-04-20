@@ -24,7 +24,7 @@ const Main = () => {
 
                         <Row >
                             <Col>
-                                <Button target='_blank' rel='noopener noreferrer' href='https://testflight.apple.com/join/IK7rzLiG' className='cv-btn mr-20'>Download</Button>
+                                <Button target='_blank' rel='noopener noreferrer' href='https://apps.apple.com/tr/app/moblear-real-time-design-3d/id6479243434' className='cv-btn mr-20'>Download</Button>
                             </Col>
                         </Row>
                     </Col>

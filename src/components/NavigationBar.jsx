@@ -31,7 +31,7 @@ const NavigationBar = () => {
                 </NavbarBrand>
                 <Nav className='nav-opened ms-auto' navbar>
                     <NavItem>
-                        <a className='nav-link' activeClass='active' target='_blank' rel='noopener noreferrer' href='https://testflight.apple.com/join/IK7rzLiG'>Download</a>
+                        <a className='nav-link' activeClass='active' target='_blank' rel='noopener noreferrer' href='https://apps.apple.com/tr/app/moblear-real-time-design-3d/id6479243434'>Download</a>
                     </NavItem>
                 </Nav>
             </Navbar>
