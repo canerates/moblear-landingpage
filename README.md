@@ -1,10 +1,5 @@
-# MobleAR Application Showcase Single Page
+<h2 align="center">
+  MobleAR Landing Page
+</h2>
 
-## Home
-![Screenshot](./page_home.png)
-
-## Screens
-![Screenshot](./page_screens.png)
-
-## Home (Portrait)
-![Screenshot](./page_home3.png)
+![Screenshot](./page-home.png)
